@@ -4,12 +4,14 @@ public class Empleado {
     private int empid,jefeid;
     private double salario;
     private String nombre;
+    private  int departamento;
     //creamos el constructor
-    public Empleado(int empid,int jefeid, double salario,String nombre){
+    public Empleado(int empid,int jefeid, double salario,String nombre,int departamento){
         this.empid=empid;
         this.jefeid=jefeid;
         this.salario=salario;
         this.nombre=nombre;
+        this.departamento=departamento;
     }
 
     public int getEmpid() {
@@ -27,7 +29,9 @@ public class Empleado {
     public String getNombre() {
         return nombre;
     }
-
+    public int getDepartamento(){
+        return departamento;
+    }
     public void setEmpid(int empid) {
         this.empid = empid;
     }
@@ -42,5 +46,8 @@ public class Empleado {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+    public void setDepartamento(){
+        this.departamento=departamento;
     }
 }

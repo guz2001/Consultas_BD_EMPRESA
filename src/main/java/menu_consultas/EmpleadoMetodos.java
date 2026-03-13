@@ -76,7 +76,27 @@ public class EmpleadoMetodos {
             }
         }
     }
-    public  void buscarDepartamento(){
+    public  void buscarDepartamento(String nombre,int departamento,double salario,int jefe)throws SQLException{
+        String sql= "Select nombre,fk_departamento,salario,jefeid from Empleado WHERE fk_departamento=?";
+        try(Connection conect= ConexionDB.getConexion();
+        PreparedStatement statement= conect.prepareStatement(sql)){
+            statement.setString(1, nombre + "%");
+            statement.setInt(1, departamento);
+            statement.setDouble(1, salario);
+            statement.setInt(1, jefe);
+            ResultSet datos= statement.executeQuery();
+            while (datos.next()){
+                String darNombre= datos.getString("nombre");
+                Integer darDept=datos.getInt("fk_departamento");
+                Double darsalario= datos.getDouble("salario");
+                Integer darJefe= datos.getInt("jefeid");
+                System.out.println(darNombre+" # "+darDept+" # "+darsalario+" # "+darJefe);
+            }
+
+
+        }catch (SQLException error){
+            error.printStackTrace();
+        }
 
     }
 }

@@ -39,6 +39,18 @@ public class menu2 {
                     System.out.println("ordenamos de menor a mayor");
                     empleado.MenorOrdenamientoSalario();
                 }
+                case 5->{
+                    System.out.println("nombre");
+                    String nombre= es.next();
+                    System.out.println("dept: ");
+                    int dept= es.nextInt();;
+                    System.out.println("salario:");
+                    double salario= es.nextInt();
+                    System.out.println("jefe:");
+                    int jefe= es.nextInt();
+                    empleado.buscarDepartamento(nombre,dept,salario,jefe);
+
+                }
                 case 0->{
                     System.out.println("salir del Menu");
 
