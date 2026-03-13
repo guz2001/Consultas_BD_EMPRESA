@@ -52,7 +52,7 @@ public class menu2 {
 
                 }
                 case 0->{
-                    System.out.println("salir del Menu");
+                    System.out.println("salir del Menu: ");
 
                 }
 
