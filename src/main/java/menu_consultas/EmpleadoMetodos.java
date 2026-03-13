@@ -76,4 +76,7 @@ public class EmpleadoMetodos {
             }
         }
     }
+    public  void buscarDepartamento(){
+
+    }
 }
