@@ -18,7 +18,7 @@ public class menu2 {
             switch (opcion){
 
                 case 1->{
-                    System.out.println("ingrese el nombre a buscar:");
+                    System.out.println("ingrese el nombre a buscar :");
                     String nombre=es.nextLine();
                     empleado.buscarPorNombre(nombre);
 
