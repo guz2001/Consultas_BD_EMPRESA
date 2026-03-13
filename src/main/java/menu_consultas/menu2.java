@@ -10,8 +10,9 @@ public class menu2 {
         EmpleadoMetodos empleado= new EmpleadoMetodos();
         int opcion=1;
         while (opcion!=0){
-            System.out.println("1-buscar empleado por nombre \n"+"2-buscar salario \n"+ " 3-ordenar rango a mayor a menor \n"+
-                    "4- ordenar salario de menor a  mayor "+"0-salir del menu");
+            System.out.println(" 1-buscar empleado por nombre \n"+" 2-buscar salario \n"+ " 3-ordenar rango a mayor a menor \n"+
+                    " 4-ordenar salario de menor a  mayor \n "+"5-Buscar por departamento \n"+" 6-acutalizar nombre de Empleado\n "
+                    +"0-salir del menu");
             opcion=es.nextInt();
             es.nextLine();
             switch (opcion){
