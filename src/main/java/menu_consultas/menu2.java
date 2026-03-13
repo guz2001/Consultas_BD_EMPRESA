@@ -51,6 +51,9 @@ public class menu2 {
                     empleado.buscarDepartamento(nombre,dept,salario,jefe);
 
                 }
+                case 6 ->{
+                    System.out.println("actualizar datos");
+                }
                 case 0->{
                     System.out.println("salir del Menu: ");
 
