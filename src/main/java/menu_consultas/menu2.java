@@ -53,7 +53,7 @@ public class menu2 {
 
                 }
                 case 6 ->{
-                    System.out.println("actualizar datos");
+                    System.out.println("actualizar datos: ");
                 }
                 case 7 ->{
                     System.out.println("borrar datos: ");
