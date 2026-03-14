@@ -8,7 +8,7 @@ public class ConexionDB {
         final String url="jdbc:mysql://127.0.0.1:3306/EMPRESA2";// siempre agregar dos // si no da error
         final String user="root";
         final String password="ProyectoSistemas2026!";
-
+        // no ponemos try() por que se cierra la conexion
         try{
             Connection connection=DriverManager.getConnection(url,user,password);
             if(connection !=null){
