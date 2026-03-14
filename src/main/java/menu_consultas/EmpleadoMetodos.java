@@ -101,6 +101,7 @@ public class EmpleadoMetodos {
     }
     // creacion metodo
     public void agregar_nombre(String nombre){
+        String sql= "nose";
 
     }
 }
