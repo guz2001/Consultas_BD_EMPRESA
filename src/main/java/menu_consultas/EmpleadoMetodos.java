@@ -99,4 +99,7 @@ public class EmpleadoMetodos {
         }
 
     }
+    public void agregar_nombre(String nombre){
+
+    }
 }
