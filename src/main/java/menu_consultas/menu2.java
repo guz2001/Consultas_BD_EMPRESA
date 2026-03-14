@@ -55,6 +55,9 @@ public class menu2 {
                 case 6 ->{
                     System.out.println("actualizar datos");
                 }
+                case 7 ->{
+                    System.out.println("borrar datos: ");
+                }
                 case 0->{
                     System.out.println("salir del Menu: ");
 
