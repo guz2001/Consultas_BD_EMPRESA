@@ -5,7 +5,7 @@ import  java.sql.*;
 import  java.sql.Connection;
 public class ConexionDB {
     public static Connection getConexion(){
-        final String url="jdbc:mysql://127.0.0.1:3306/EMPRESA2";
+        final String url="jdbc:mysql://127.0.0.1:3306/EMPRESA2";// siempre agregar dos // si no da error
         final String user="root";
         final String password="ProyectoSistemas2026!";
 
