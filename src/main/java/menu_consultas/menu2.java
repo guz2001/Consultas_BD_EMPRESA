@@ -37,7 +37,7 @@ public class menu2 {
                     empleado.OrdenarSalarioMayorMenor();
                 }
                 case 4->{
-                    System.out.println("ordenamos de menor a mayor");
+                    System.out.println("ordenamos de menor a mayor:");
                     empleado.MenorOrdenamientoSalario();
                 }
                 case 5->{
